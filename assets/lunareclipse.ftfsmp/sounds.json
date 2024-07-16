@@ -1,0 +1,12 @@
+{
+	"music_disc.herobrine_lullaby": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/herobrine_lullaby",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	}
+}

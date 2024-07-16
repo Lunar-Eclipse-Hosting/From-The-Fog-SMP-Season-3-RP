@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/diamond_axe"
+    },
+    "overrides": [
+        {
+            "model": "lunareclipse.cosmetics:item/tools/cookie/axe",
+            "predicate": {
+                "custom_model_data": 1350001
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/foliage/axe",
+            "predicate": {
+                "custom_model_data": 1350002
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/midnight/axe",
+            "predicate": {
+                "custom_model_data": 1350003
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/adventurer/axe",
+            "predicate": {
+                "custom_model_data": 1350004
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/eclipse/axe",
+            "predicate": {
+                "custom_model_data": 1350005
+            }
+        }
+    ]
+}

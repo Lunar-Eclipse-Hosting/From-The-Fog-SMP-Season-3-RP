@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_11"
+  },
+  "overrides": [
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_herobrine_lullaby",
+      "predicate": {
+        "custom_model_data": 1350001
+      }
+    }
+  ]
+}

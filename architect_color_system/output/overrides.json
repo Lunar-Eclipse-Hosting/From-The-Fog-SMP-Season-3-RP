@@ -1,0 +1,104 @@
+[
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/black",
+        "predicate": {
+            "custom_model_data": 1350073
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/blue",
+        "predicate": {
+            "custom_model_data": 1350074
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/brown",
+        "predicate": {
+            "custom_model_data": 1350075
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/cyan",
+        "predicate": {
+            "custom_model_data": 1350076
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/default",
+        "predicate": {
+            "custom_model_data": 1350077
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/green",
+        "predicate": {
+            "custom_model_data": 1350078
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/grey",
+        "predicate": {
+            "custom_model_data": 1350079
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/light_blue",
+        "predicate": {
+            "custom_model_data": 1350080
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/light_grey",
+        "predicate": {
+            "custom_model_data": 1350081
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/lime",
+        "predicate": {
+            "custom_model_data": 1350082
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/magenta",
+        "predicate": {
+            "custom_model_data": 1350083
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/orange",
+        "predicate": {
+            "custom_model_data": 1350084
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/pink",
+        "predicate": {
+            "custom_model_data": 1350085
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/purple",
+        "predicate": {
+            "custom_model_data": 1350086
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/red",
+        "predicate": {
+            "custom_model_data": 1350087
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/white",
+        "predicate": {
+            "custom_model_data": 1350088
+        }
+    },
+    {
+        "model": "lunareclipse.architect:item/decorations/props/tent/yellow",
+        "predicate": {
+            "custom_model_data": 1350089
+        }
+    }
+]

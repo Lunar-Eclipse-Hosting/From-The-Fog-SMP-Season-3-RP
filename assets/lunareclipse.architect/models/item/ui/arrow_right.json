@@ -1,0 +1,9 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "lunareclipse.architect:item/ui/arrow_right"
+	},
+	"gui_light": "front",
+	"display": {}
+}

@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "model": "lunareclipse.cosmetics:item/hats/basic_cap",
+      "predicate": {
+        "custom_model_data": 1350001
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/atlas",
+      "predicate": {
+        "custom_model_data": 1350002
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/straw_hat",
+      "predicate": {
+        "custom_model_data": 1350003
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/samurai",
+      "predicate": {
+        "custom_model_data": 1350004
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/mushroom",
+      "predicate": {
+        "custom_model_data": 1350005
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/finn",
+      "predicate": {
+        "custom_model_data": 1350006
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/frog_bucket_hat",
+      "predicate": {
+        "custom_model_data": 1350007
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/bucket_hat",
+      "predicate": {
+        "custom_model_data": 1350008
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/western",
+      "predicate": {
+        "custom_model_data": 1350009
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/large_taco",
+      "predicate": {
+        "custom_model_data": 1350010
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/fedora",
+      "predicate": {
+        "custom_model_data": 1350011
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/kitty",
+      "predicate": {
+        "custom_model_data": 1350012
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/kitty_the_sequel",
+      "predicate": {
+        "custom_model_data": 1350013
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/sussy_baka",
+      "predicate": {
+        "custom_model_data": 1350014
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/blank",
+      "predicate": {
+        "custom_model_data": 1351000
+      }
+    }
+  ]
+}

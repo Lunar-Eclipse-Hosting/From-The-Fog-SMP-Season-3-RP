@@ -1,0 +1,6 @@
+{
+    "parent": "lunareclipse.cosmetics:item/tools/shield",
+    "textures": {
+        "layer0": "lunareclipse.cosmetics:item/tools/midnight/shield"
+    }
+}

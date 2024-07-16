@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.architect:item/decorations/furniture/chair/template",
+	"textures": {
+		"chair": "lunareclipse.architect:item/decorations/furniture/chair/cyan"
+	}
+}

@@ -1,0 +1,608 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+    {
+      "model": "lunareclipse.architect:item/ui/arrow_left",
+      "predicate": {
+        "custom_model_data": 1340000
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/ui/arrow_right",
+      "predicate": {
+        "custom_model_data": 1340001
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/book/book_stack1",
+      "predicate": {
+        "custom_model_data": 1350001
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/book/book_stack2",
+      "predicate": {
+        "custom_model_data": 1350002
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/book/book1",
+      "predicate": {
+        "custom_model_data": 1350003
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/book/book2",
+      "predicate": {
+        "custom_model_data": 1350004
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/book/builder_book",
+      "predicate": {
+        "custom_model_data": 1350005
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/black",
+      "predicate": {
+        "custom_model_data": 1350006
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/blue",
+      "predicate": {
+        "custom_model_data": 1350007
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/brown",
+      "predicate": {
+        "custom_model_data": 1350008
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/cyan",
+      "predicate": {
+        "custom_model_data": 1350009
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/default",
+      "predicate": {
+        "custom_model_data": 1350010
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/green",
+      "predicate": {
+        "custom_model_data": 1350011
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/grey",
+      "predicate": {
+        "custom_model_data": 1350012
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/light_blue",
+      "predicate": {
+        "custom_model_data": 1350013
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/light_grey",
+      "predicate": {
+        "custom_model_data": 1350014
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/lime",
+      "predicate": {
+        "custom_model_data": 1350015
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/magenta",
+      "predicate": {
+        "custom_model_data": 1350016
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/orange",
+      "predicate": {
+        "custom_model_data": 1350017
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/pink",
+      "predicate": {
+        "custom_model_data": 1350018
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/purple",
+      "predicate": {
+        "custom_model_data": 1350019
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/red",
+      "predicate": {
+        "custom_model_data": 1350020
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/white",
+      "predicate": {
+        "custom_model_data": 1350021
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/couch/yellow",
+      "predicate": {
+        "custom_model_data": 1350022
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/cup/cup1",
+      "predicate": {
+        "custom_model_data": 1350023
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/cup/cup2",
+      "predicate": {
+        "custom_model_data": 1350024
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bottles/bottles1",
+      "predicate": {
+        "custom_model_data": 1350025
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bottles/bottles2",
+      "predicate": {
+        "custom_model_data": 1350026
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bottles/bottles3",
+      "predicate": {
+        "custom_model_data": 1350027
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bottles/bottles4",
+      "predicate": {
+        "custom_model_data": 1350028
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/no_cushion",
+      "predicate": {
+        "custom_model_data": 1350029
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/black",
+      "predicate": {
+        "custom_model_data": 1350030
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/blue",
+      "predicate": {
+        "custom_model_data": 1350031
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/brown",
+      "predicate": {
+        "custom_model_data": 1350032
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/cyan",
+      "predicate": {
+        "custom_model_data": 1350033
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/default",
+      "predicate": {
+        "custom_model_data": 1350034
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/green",
+      "predicate": {
+        "custom_model_data": 1350035
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/grey",
+      "predicate": {
+        "custom_model_data": 1350036
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/light_blue",
+      "predicate": {
+        "custom_model_data": 1350037
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/light_grey",
+      "predicate": {
+        "custom_model_data": 1350038
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/lime",
+      "predicate": {
+        "custom_model_data": 1350039
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/magenta",
+      "predicate": {
+        "custom_model_data": 1350040
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/orange",
+      "predicate": {
+        "custom_model_data": 1350041
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/pink",
+      "predicate": {
+        "custom_model_data": 1350042
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/purple",
+      "predicate": {
+        "custom_model_data": 1350043
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/red",
+      "predicate": {
+        "custom_model_data": 1350044
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/white",
+      "predicate": {
+        "custom_model_data": 1350045
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/chair/yellow",
+      "predicate": {
+        "custom_model_data": 1350046
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/logs/logs1",
+      "predicate": {
+        "custom_model_data": 1350047
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/logs/logs2",
+      "predicate": {
+        "custom_model_data": 1350048
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/logs/logs3",
+      "predicate": {
+        "custom_model_data": 1350049
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/pebbles/pebbles1",
+      "predicate": {
+        "custom_model_data": 1350050
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/pebbles/pebbles2",
+      "predicate": {
+        "custom_model_data": 1350051
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/nature/pebbles/pebbles3",
+      "predicate": {
+        "custom_model_data": 1350052
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/black",
+      "predicate": {
+        "custom_model_data": 1350053
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/blue",
+      "predicate": {
+        "custom_model_data": 1350054
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/brown",
+      "predicate": {
+        "custom_model_data": 1350055
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/cyan",
+      "predicate": {
+        "custom_model_data": 1350056
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/default",
+      "predicate": {
+        "custom_model_data": 1350057
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/green",
+      "predicate": {
+        "custom_model_data": 1350058
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/grey",
+      "predicate": {
+        "custom_model_data": 1350059
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/light_blue",
+      "predicate": {
+        "custom_model_data": 1350060
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/light_grey",
+      "predicate": {
+        "custom_model_data": 1350061
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/lime",
+      "predicate": {
+        "custom_model_data": 1350062
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/magenta",
+      "predicate": {
+        "custom_model_data": 1350063
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/orange",
+      "predicate": {
+        "custom_model_data": 1350064
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/pink",
+      "predicate": {
+        "custom_model_data": 1350065
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/purple",
+      "predicate": {
+        "custom_model_data": 1350066
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/red",
+      "predicate": {
+        "custom_model_data": 1350067
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/white",
+      "predicate": {
+        "custom_model_data": 1350068
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sleeping_bag/yellow",
+      "predicate": {
+        "custom_model_data": 1350069
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/wheelbarrow",
+      "predicate": {
+        "custom_model_data": 1350070
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/scrolls/scrolls1",
+      "predicate": {
+        "custom_model_data": 1350071
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/scrolls/scrolls2",
+      "predicate": {
+        "custom_model_data": 1350072
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/black",
+      "predicate": {
+        "custom_model_data": 1350073
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/blue",
+      "predicate": {
+        "custom_model_data": 1350074
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/brown",
+      "predicate": {
+        "custom_model_data": 1350075
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/cyan",
+      "predicate": {
+        "custom_model_data": 1350076
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/default",
+      "predicate": {
+        "custom_model_data": 1350077
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/green",
+      "predicate": {
+        "custom_model_data": 1350078
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/grey",
+      "predicate": {
+        "custom_model_data": 1350079
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/light_blue",
+      "predicate": {
+        "custom_model_data": 1350080
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/light_grey",
+      "predicate": {
+        "custom_model_data": 1350081
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/lime",
+      "predicate": {
+        "custom_model_data": 1350082
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/magenta",
+      "predicate": {
+        "custom_model_data": 1350083
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/orange",
+      "predicate": {
+        "custom_model_data": 1350084
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/pink",
+      "predicate": {
+        "custom_model_data": 1350085
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/purple",
+      "predicate": {
+        "custom_model_data": 1350086
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/red",
+      "predicate": {
+        "custom_model_data": 1350087
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/white",
+      "predicate": {
+        "custom_model_data": 1350088
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/tent/yellow",
+      "predicate": {
+        "custom_model_data": 1350089
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sack/sack1",
+      "predicate": {
+        "custom_model_data": 1350090
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/sack/sack2",
+      "predicate": {
+        "custom_model_data": 1350091
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bear_trap/bear_trap",
+      "predicate": {
+        "custom_model_data": 1350092
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/bear_trap/bear_trap_closed",
+      "predicate": {
+        "custom_model_data": 1350093
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/stool",
+      "predicate": {
+        "custom_model_data": 1350094
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/grandfather_clock",
+      "predicate": {
+        "custom_model_data": 1350095
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/taxidermy/deer_head",
+      "predicate": {
+        "custom_model_data": 1350096
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/taxidermy/bear_head",
+      "predicate": {
+        "custom_model_data": 1350097
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/taxidermy/taxidermy_owl",
+      "predicate": {
+        "custom_model_data": 1350098
+      }
+    }
+  ]
+}

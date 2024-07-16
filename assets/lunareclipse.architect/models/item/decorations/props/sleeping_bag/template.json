@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+        "texture": "lunareclipse.architect:item/decorations/props/sleeping_bag/default"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 3, 27],
+			"faces": {
+				"north": {"uv": [3, 9, 6, 9.75], "texture": "#texture"},
+				"east": {"uv": [3.5, 6.75, 9.75, 7.5], "texture": "#texture"},
+				"south": {"uv": [9, 3.75, 12, 4.5], "texture": "#texture"},
+				"west": {"uv": [3.5, 7.5, 9.75, 8.25], "texture": "#texture"},
+				"up": {"uv": [3, 6.75, 0, 0.5], "texture": "#texture"},
+				"down": {"uv": [6, 0.5, 3, 6.75], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [1.75, -0.25, 1.95],
+			"to": [14.25, 3.25, 27.95],
+			"faces": {
+				"north": {"uv": [9, 4.5, 12, 5.25], "texture": "#texture"},
+				"east": {"uv": [3.5, 8.25, 9.75, 9], "texture": "#texture"},
+				"south": {"uv": [9, 5.25, 12, 6], "texture": "#texture"},
+				"west": {"uv": [9.5, 0, 15.75, 0.75], "texture": "#texture"},
+				"up": {"uv": [9, 6.75, 6, 0.5], "texture": "#texture"},
+				"down": {"uv": [3, 7.25, 0, 13.5], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [2, 0, -4],
+			"to": [14, 3, 2],
+			"faces": {
+				"north": {"uv": [6, 9, 9, 9.75], "texture": "#texture"},
+				"east": {"uv": [9, 9, 10.5, 9.75], "texture": "#texture"},
+				"south": {"uv": [9, 6, 12, 6.75], "texture": "#texture"},
+				"west": {"uv": [3, 9.75, 4.5, 10.5], "texture": "#texture"},
+				"up": {"uv": [12, 2.25, 9, 0.75], "texture": "#texture"},
+				"down": {"uv": [12, 2.25, 9, 3.75], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [51.5, -24.5, 0],
+			"translation": [1.5, 4.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, -8.5, -16],
+			"scale": [2, 2, 2]
+		}
+	}
+}

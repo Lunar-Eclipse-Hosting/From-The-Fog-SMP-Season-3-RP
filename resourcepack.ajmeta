@@ -1,0 +1,21 @@
+{
+    "version": "0.4.7",
+    "projects": {
+        "8adc7d8e-17b8-45b1-8bf7-9862533aa788": {
+            "project_name": "webster_cosmetic_merchant",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_right0.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_right1.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_right2.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_right3.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_left0.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_left1.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_left2.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\leg_left4.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\body.json",
+                "assets\\animated_java\\models\\item\\webster_cosmetic_merchant\\head.json",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        }
+    }
+}

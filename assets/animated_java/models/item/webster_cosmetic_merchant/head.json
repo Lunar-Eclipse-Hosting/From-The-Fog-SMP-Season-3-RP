@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"0": "lunareclipse.cosmetics:item/entity/webster"
+	},
+	"elements": [
+		{
+			"from": [
+				7,
+				10,
+				2
+			],
+			"to": [
+				10,
+				13,
+				5
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					8,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1.5,
+						5,
+						3,
+						6.5
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						0,
+						5,
+						1.5,
+						6.5
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						4.5,
+						5,
+						6,
+						6.5
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						3,
+						5,
+						4.5,
+						6.5
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						3,
+						5,
+						1.5,
+						3.5
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						4.5,
+						3.5,
+						3,
+						5
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

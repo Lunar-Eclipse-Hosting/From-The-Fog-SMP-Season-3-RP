@@ -1,0 +1,92 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/chain"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_right0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_right1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_right2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_right3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_left0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_left1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_left2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/leg_left4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "animated_java:item/webster_cosmetic_merchant/head"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"webster_cosmetic_merchant": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				]
+			}
+		}
+	}
+}

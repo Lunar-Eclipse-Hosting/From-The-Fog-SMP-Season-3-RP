@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.architect:item/decorations/furniture/couch/template",
+	"textures": {
+		"couch": "lunareclipse.architect:item/decorations/furniture/couch/lime"
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "providers": [
+        {
+            "ascent": -32768,
+            "chars": [
+                "\uBC01"
+            ],
+            "file": "lunareclipse.cosmetics:font/pixel_nosplit.png",
+            "height": -10,
+            "type": "bitmap"
+        },
+        {
+            "ascent": -32768,
+            "chars": [
+                "\uBC02"
+            ],
+            "file": "lunareclipse.cosmetics:font/pixel_nosplit.png",
+            "height": -176,
+            "type": "bitmap"
+        },
+        {
+            "ascent": 42,
+            "chars": [
+                "\uBA01"
+            ],
+            "file": "lunareclipse.architect:font/gui/toolbox.png",
+            "height": 154,
+            "type": "bitmap"
+        },
+        {
+            "ascent": 13,
+            "chars": [
+                "\uBB01"
+            ],
+            "file": "lunareclipse.cosmetics:font/gui/main_menu.png",
+            "height": 125,
+            "type": "bitmap"
+        },
+        {
+            "ascent": 13,
+            "chars": [
+                "\uBB02"
+            ],
+            "file": "lunareclipse.cosmetics:font/gui/hat_menu.png",
+            "height": 125,
+            "type": "bitmap"
+        },
+        {
+            "ascent": 13,
+            "chars": [
+                "\uBB03"
+            ],
+            "file": "lunareclipse.cosmetics:font/gui/tools_menu.png",
+            "height": 125,
+            "type": "bitmap"
+        }
+    ]
+}
