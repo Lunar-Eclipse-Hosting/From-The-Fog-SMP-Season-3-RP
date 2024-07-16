@@ -41,18 +41,18 @@ jobs:
       run: |
         cd merged_pack
         zip -r ../resourcepack.zip ./*
+        cd ..
 
     - name: Verify zip file creation
       run: ls -alh
 
     - name: Move zip file to root
-      run: mv resourcepack.zip ../
+      run: mv merged_pack/../resourcepack.zip .
 
     - name: Configure git
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-      working-directory: .
 
     - name: Commit and push zip file to root
       env:
@@ -61,4 +61,3 @@ jobs:
         git add resourcepack.zip
         git commit -m 'Add merged resource pack'
         git push origin main
-      working-directory: .
