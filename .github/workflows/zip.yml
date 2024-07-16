@@ -43,8 +43,14 @@ jobs:
         cd merged_pack
         zip -r ../resourcepack.zip ./*
 
+    - name: List files for debugging
+      run: ls -alh ../
+
     - name: Move zip file to root
       run: mv ../resourcepack.zip ./resourcepack.zip
+
+    - name: List files in root for debugging
+      run: ls -alh .
 
     - name: Configure git
       run: |
