@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_11"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "lunareclipse.watching:item/disc/subwoofer_fake"},
+    {"predicate": {"custom_model_data": 2},"model": "lunareclipse.watching:item/disc/subwoofer"},
+    {"predicate": {"custom_model_data": 3},"model": "lunareclipse.watching:item/disc/herobrine_lullaby"}
+  ]
+}

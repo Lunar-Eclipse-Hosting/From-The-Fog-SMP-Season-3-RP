@@ -1,0 +1,6 @@
+{
+  "parent": "lunareclipse.watching:item/herobrine/white_pumpkin/head",
+  "textures": {
+    "skin": "lunareclipse.watching:item/herobrine/white_pumpkin/skin_emissive"
+  }
+}

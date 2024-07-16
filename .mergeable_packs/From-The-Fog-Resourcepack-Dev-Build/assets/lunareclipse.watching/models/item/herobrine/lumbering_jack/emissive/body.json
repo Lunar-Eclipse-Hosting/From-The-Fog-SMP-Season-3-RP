@@ -1,0 +1,7 @@
+{
+  "parent": "lunareclipse.watching:item/herobrine/lumbering_jack/body",
+  "textures": {
+    "1": "lunareclipse.watching:item/herobrine/lumbering_jack/iron_axe_emissive",
+    "skin": "lunareclipse.watching:item/herobrine/lumbering_jack/skin_emissive"
+  }
+}

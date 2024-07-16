@@ -1,0 +1,326 @@
+    {
+        "providers": [
+            {
+                "type": "space",
+                "advances": {
+                    " ": 4,
+                    "‌": 0
+                }
+            },
+            {
+                "type": "bitmap",
+                "file": "minecraft:font/ascii.png",
+                "ascent": 7,
+                "height": 8,
+                "chars": [
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    " !\"#$%&'()*+,-./",
+                    "0123456789:;<=>?",
+                    "@ABCDEFGHIJKLMNO",
+                    "PQRSTUVWXYZ[\\]^_",
+                    "`abcdefghijklmno",
+                    "pqrstuvwxyz{|}~\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000£\u0000\u0000ƒ",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000ªº\u0000\u0000¬\u0000\u0000\u0000«»",
+                    "░▒▓│┤╡╢╖╕╣║╗╝╜╛┐",
+                    "└┴┬├─┼╞╟╚╔╩╦╠═╬╧",
+                    "╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000∅∈\u0000",
+                    "≡±≥≤⌠⌡÷≈°∙\u0000√ⁿ²■\u0000"
+                ]
+            },
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBB01"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/logo.png",
+                "height": 17,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC01"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC02"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -3,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 240,
+                "chars": [
+                    "\uBC04"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/crash/default.png",
+                "height": 650,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 80,
+                "chars": [
+                    "\uBC05"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/crash/glitch.png",
+                "height": 160,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 80,
+                "chars": [
+                    "\uBC06"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/crash/dirt.png",
+                "height": 160,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC07"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -16,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBD00"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/crash_screens/selected.png",
+                "height": 10,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBD01"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/crash_screens/default.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBD02"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/crash_screens/glitch.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBD03"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/crash_screens/dirt.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBD04"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/crash_screens/animated.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBC26"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/skins/randomize.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC27"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/switch/switch_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC28"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/switch/switch_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC29"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/beginning.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC30"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/end.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC31"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/middle.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC32"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC33"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -4,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC34"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/beginning_slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC35"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/slider/end_slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 11,
+                "chars": [
+                    "\uBC36"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/skin_library.png",
+                "height": 15,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC37",
+                    "\uBC38"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/counter/counter_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC39",
+                    "\uBC40"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/counter/counter_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC41"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/counter/counter_bg.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC42"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/switch/auto_switch_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC43"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/switch/auto_switch_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC44"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -42,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 10,
+                "chars": [
+                    "\uBC45"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/crash_screen_library.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC46"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/icons/config/blank_button.png",
+                "height": 11,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC47"
+                ],
+                "file": "lunareclipse.watching:font/watching_ui/pixel_nosplit.png",
+                "height": -10,
+                "type": "bitmap"
+            }
+        ]
+    }

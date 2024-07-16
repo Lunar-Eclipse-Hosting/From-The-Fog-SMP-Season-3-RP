@@ -1,0 +1,6 @@
+{
+  "parent": "lunareclipse.watching:item/herobrine/distorted/body",
+  "textures": {
+    "skin": "lunareclipse.watching:item/herobrine/distorted/skin_emissive"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "lunareclipse.watching:item/herobrine/webster/head",
+  "textures": {
+    "1": "lunareclipse.watching:item/herobrine/webster/webster_emissive",
+    "skin": "lunareclipse.watching:item/herobrine/webster/skin_emissive"
+  }
+}

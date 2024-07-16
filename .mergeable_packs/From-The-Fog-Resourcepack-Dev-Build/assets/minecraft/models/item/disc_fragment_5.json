@@ -1,0 +1,2651 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/disc_fragment_5"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1350001
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350002
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350003
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350004
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350005
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350006
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350007
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350008
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350009
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350010
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350011
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350012
+			},
+			"model": "lunareclipse.watching:item/herobrine/default/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350013
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350014
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350015
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350016
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350017
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350018
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350019
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350020
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350021
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350022
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350023
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350024
+			},
+			"model": "lunareclipse.watching:item/herobrine/classic/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350025
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350026
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350027
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350028
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350029
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350030
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350031
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350032
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350033
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350034
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350035
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350036
+			},
+			"model": "lunareclipse.watching:item/herobrine/black_eyed/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350037
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350038
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350039
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350040
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350041
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350042
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350043
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350044
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350045
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350046
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350047
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350048
+			},
+			"model": "lunareclipse.watching:item/herobrine/entity_303/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350049
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350050
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350051
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350052
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350053
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350054
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350055
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350056
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350057
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350058
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350059
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350060
+			},
+			"model": "lunareclipse.watching:item/herobrine/glitch/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350061
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350062
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350063
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350064
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350065
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350066
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350067
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350068
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350069
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350070
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350071
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350072
+			},
+			"model": "lunareclipse.watching:item/herobrine/null/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350073
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350074
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350075
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350076
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350077
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350078
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350079
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350080
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350081
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350082
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350083
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350084
+			},
+			"model": "lunareclipse.watching:item/herobrine/webster/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350085
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350086
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350087
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350088
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350089
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350090
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350091
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350092
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350093
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350094
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350095
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350096
+			},
+			"model": "lunareclipse.watching:item/herobrine/apparition/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350097
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350098
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350099
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350100
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350101
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350102
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350103
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350104
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350105
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350106
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350107
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350108
+			},
+			"model": "lunareclipse.watching:item/herobrine/zombie/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350109
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350110
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350111
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350112
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350113
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350114
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350115
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350116
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350117
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350118
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350119
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350120
+			},
+			"model": "lunareclipse.watching:item/herobrine/nullified/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350121
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350122
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350123
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350124
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350125
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350126
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350127
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350128
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350129
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350130
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350131
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350132
+			},
+			"model": "lunareclipse.watching:item/herobrine/faceless/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350133
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350134
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350135
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350136
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350137
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350138
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350139
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350140
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350141
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350142
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350143
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350144
+			},
+			"model": "lunareclipse.watching:item/herobrine/distorted/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350145
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350146
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350147
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350148
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350149
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350150
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350151
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350152
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350153
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350154
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350155
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350156
+			},
+			"model": "lunareclipse.watching:item/herobrine/alex/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350157
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350158
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350159
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350160
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350161
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350162
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350163
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350164
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350165
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350166
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350167
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350168
+			},
+			"model": "lunareclipse.watching:item/herobrine/lick/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350169
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350170
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350171
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350172
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350173
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350174
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350175
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350176
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350177
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350178
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350179
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350180
+			},
+			"model": "lunareclipse.watching:item/herobrine/fallen_kingdom/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350181
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350182
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350183
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350184
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350185
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350186
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350187
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350188
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350189
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350190
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350191
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350192
+			},
+			"model": "lunareclipse.watching:item/herobrine/sculk_infested/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350193
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350194
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350195
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350196
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350197
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350198
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350199
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350200
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350201
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350202
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350203
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350204
+			},
+			"model": "lunareclipse.watching:item/herobrine/netherbrine/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350205
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350206
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350207
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350208
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350209
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350210
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350211
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350212
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350213
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350214
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350215
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350216
+			},
+			"model": "lunareclipse.watching:item/herobrine/farlander/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350217
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350218
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350219
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350220
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350221
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350222
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350223
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350224
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350225
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350226
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350227
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350228
+			},
+			"model": "lunareclipse.watching:item/herobrine/the_headless/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350229
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350230
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350231
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350232
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350233
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350234
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350235
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350236
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350237
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350238
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350239
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350240
+			},
+			"model": "lunareclipse.watching:item/herobrine/lumbering_jack/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350241
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350242
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350243
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350244
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350245
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350246
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350247
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350248
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350249
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350250
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350251
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350252
+			},
+			"model": "lunareclipse.watching:item/herobrine/smile/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350253
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350254
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350255
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350256
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350257
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350258
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350259
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350260
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350261
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350262
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350263
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350264
+			},
+			"model": "lunareclipse.watching:item/herobrine/grimreaper/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350265
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350266
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350267
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350268
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350269
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350270
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350271
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350272
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350273
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350274
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350275
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350276
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_eyes_classic/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350277
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350278
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350279
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350280
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350281
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350282
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350283
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350284
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350285
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350286
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350287
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350288
+			},
+			"model": "lunareclipse.watching:item/herobrine/white_pumpkin/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350289
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350290
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350291
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350292
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350293
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350294
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350295
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350296
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350297
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350298
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350299
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350300
+			},
+			"model": "lunareclipse.watching:item/herobrine/lonely/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350301
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350302
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350303
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350304
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350305
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350306
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350307
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350308
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350309
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350310
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350311
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350312
+			},
+			"model": "lunareclipse.watching:item/herobrine/roseate/emissive/right_leg"
+		},
+
+
+
+		{
+			"predicate": {
+				"custom_model_data": 1350800
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350801
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350802
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350803
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350804
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350805
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350806
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350807
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350808
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350809
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350810
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350811
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/1/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350812
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350813
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350814
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350815
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350816
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350817
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350818
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350819
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350820
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350821
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350822
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350823
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/2/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350824
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350825
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350826
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350827
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350828
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350829
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350830
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350831
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350832
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350833
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350834
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350835
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/3/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350836
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350837
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350838
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350839
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350840
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350841
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350842
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350843
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350844
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350845
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350846
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350847
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/4/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350848
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350849
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350850
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350851
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350852
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350853
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350854
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350855
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350856
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350857
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350858
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350859
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/5/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350860
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350861
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350862
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350863
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350864
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350865
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350866
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350867
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350868
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350869
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350870
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350871
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/6/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350872
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350873
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350874
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350875
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350876
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350877
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350878
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350879
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350880
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350881
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350882
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350883
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/7/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350884
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350885
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350886
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350887
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350888
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350889
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350890
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350891
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350892
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350893
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350894
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350895
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/8/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350896
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350897
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350898
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350899
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350900
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350901
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350902
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350903
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350904
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350905
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350906
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350907
+			},
+			"model": "lunareclipse.watching:item/herobrine/custom/9/emissive/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359001
+			},
+			"model": "lunareclipse.watching:item/renders/shrine"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359002
+			},
+			"model": "lunareclipse.watching:item/renders/watching"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359003
+			},
+			"model": "lunareclipse.watching:item/renders/stalking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359004
+			},
+			"model": "lunareclipse.watching:item/renders/leafless_grove"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359005
+			},
+			"model": "lunareclipse.watching:item/renders/logless_tree"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359006
+			},
+			"model": "lunareclipse.watching:item/renders/mossy_pyramid"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359007
+			},
+			"model": "lunareclipse.watching:item/renders/nightmare"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359008
+			},
+			"model": "lunareclipse.watching:item/renders/griddy"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359009
+			},
+			"model": "lunareclipse.watching:item/renders/liberty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359010
+			},
+			"model": "lunareclipse.watching:item/renders/librarian"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359011
+			},
+			"model": "lunareclipse.watching:item/renders/angry_wolf"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359012
+			},
+			"model": "lunareclipse.watching:item/renders/rotten_flesh"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359013
+			},
+			"model": "lunareclipse.watching:item/renders/redstone_torch"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359014
+			},
+			"model": "lunareclipse.watching:item/renders/name_tag"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359015
+			},
+			"model": "lunareclipse.watching:item/renders/tardis"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359016
+			},
+			"model": "lunareclipse.watching:item/renders/mining_block"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359017
+			},
+			"model": "lunareclipse.watching:item/renders/bonzo_holding_rt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359018
+			},
+			"model": "lunareclipse.watching:item/renders/torch_tunnel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359019
+			},
+			"model": "lunareclipse.watching:item/renders/swinging_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1359020
+			},
+			"model": "lunareclipse.watching:item/renders/herobrine_hitting"
+		}
+	]
+}

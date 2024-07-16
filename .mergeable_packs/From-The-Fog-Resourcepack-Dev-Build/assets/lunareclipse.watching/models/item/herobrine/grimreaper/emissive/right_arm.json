@@ -1,0 +1,6 @@
+{
+  "parent": "lunareclipse.watching:item/herobrine/grimreaper/right_arm",
+  "textures": {
+    "skin": "lunareclipse.watching:item/herobrine/grimreaper/skin_emissive"
+  }
+}
