@@ -44,7 +44,7 @@ jobs:
         zip -r ../resourcepack.zip ./*
 
     - name: Move zip file to root
-      run: mv merged_pack.zip resourcepack.zip
+      run: mv ../resourcepack.zip ./resourcepack.zip
 
     - name: Configure git
       run: |
