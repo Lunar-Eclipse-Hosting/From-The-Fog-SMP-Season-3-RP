@@ -23,8 +23,7 @@ jobs:
       run: npm install
 
     - name: Prepare merged pack directory
-      run: |
-        mkdir -p merged_pack/assets
+      run: mkdir -p merged_pack/assets
 
     - name: Copy main pack files
       run: |
@@ -43,14 +42,11 @@ jobs:
         cd merged_pack
         zip -r ../resourcepack.zip ./*
 
-    - name: List files for debugging
-      run: ls -alh ../
+    - name: Verify zip file creation
+      run: ls -alh
 
     - name: Move zip file to root
-      run: mv ../resourcepack.zip ./resourcepack.zip
-
-    - name: List files in root for debugging
-      run: ls -alh .
+      run: mv resourcepack.zip ../resourcepack.zip
 
     - name: Configure git
       run: |
