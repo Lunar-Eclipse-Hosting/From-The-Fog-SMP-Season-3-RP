@@ -46,7 +46,7 @@ jobs:
       run: ls -alh
 
     - name: Move zip file to root
-      run: mv resourcepack.zip ../resourcepack.zip
+      run: mv resourcepack.zip ../
 
     - name: Configure git
       run: |
@@ -55,6 +55,8 @@ jobs:
       working-directory: .
 
     - name: Commit and push zip file to root
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add resourcepack.zip
         git commit -m 'Add merged resource pack'
