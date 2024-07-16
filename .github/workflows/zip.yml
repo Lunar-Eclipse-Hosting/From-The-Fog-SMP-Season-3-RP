@@ -46,9 +46,6 @@ jobs:
     - name: Verify zip file creation
       run: ls -alh
 
-    - name: Move zip file to root
-      run: mv merged_pack/../resourcepack.zip .
-
     - name: Configure git
       run: |
         git config --global user.name 'github-actions[bot]'
