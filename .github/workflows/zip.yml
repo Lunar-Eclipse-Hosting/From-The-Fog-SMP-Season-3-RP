@@ -22,11 +22,21 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Merge resource packs
+    - name: Prepare merged pack directory
       run: |
-        mkdir -p merged_pack
-        cp -r .mergeable_packs/* merged_pack/
-        find . -maxdepth 1 -mindepth 1 -not -name 'merged_pack' -not -name '.mergeable_packs' -exec cp -r {} merged_pack/ \;
+        mkdir -p merged_pack/assets
+
+    - name: Copy main pack files
+      run: |
+        cp pack.png merged_pack/
+        cp pack.mcmeta merged_pack/
+
+    - name: Merge assets folders
+      run: |
+        cp -r assets/* merged_pack/assets/
+        for d in .mergeable_packs/*/assets/*; do
+          cp -r "$d" merged_pack/assets/
+        done
 
     - name: Create zip file
       run: |
