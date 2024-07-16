@@ -48,7 +48,8 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout main
-        cp ../resourcepack.zip resourcepack.zip
+        mv resourcepack.zip ../resourcepack.zip
+        cd ..
         git add resourcepack.zip
         git commit -m 'Add merged resource pack'
         git push origin main
