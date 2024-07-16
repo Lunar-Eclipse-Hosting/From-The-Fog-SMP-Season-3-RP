@@ -1,0 +1,41 @@
+name: Create Resource Pack Zip
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Merge resource packs
+      run: |
+        mkdir -p merged_pack
+        cp -r .mergeable_packs/* merged_pack/
+        cp -r * merged_pack/
+        cd merged_pack
+        find . -type f -exec cp --parents {} ../resourcepack/ \;
+
+    - name: Create zip file
+      run: |
+        zip -r resourcepack.zip resourcepack/
+
+    - name: Upload zip file
+      uses: actions/upload-artifact@v2
+      with:
+        name: resourcepack
+        path: resourcepack.zip
