@@ -26,13 +26,12 @@ jobs:
       run: |
         mkdir -p merged_pack
         cp -r .mergeable_packs/* merged_pack/
-        cp -r * merged_pack/
-        cd merged_pack
-        find . -type f -exec cp --parents {} ../resourcepack/ \;
+        find . -maxdepth 1 -mindepth 1 -not -name 'merged_pack' -not -name '.mergeable_packs' -exec cp -r {} merged_pack/ \;
 
     - name: Create zip file
       run: |
-        zip -r resourcepack.zip resourcepack/
+        cd merged_pack
+        zip -r ../resourcepack.zip ./*
 
     - name: Upload zip file
       uses: actions/upload-artifact@v2
