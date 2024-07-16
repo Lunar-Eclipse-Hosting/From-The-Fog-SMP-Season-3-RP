@@ -44,14 +44,17 @@ jobs:
         zip -r ../resourcepack.zip ./*
 
     - name: Move zip file to root
-      run: mv resourcepack.zip ../resourcepack.zip
+      run: mv merged_pack.zip resourcepack.zip
 
-    - name: Upload zip file to root
+    - name: Configure git
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git checkout main
+      working-directory: .
+
+    - name: Commit and push zip file to root
+      run: |
         git add resourcepack.zip
         git commit -m 'Add merged resource pack'
         git push origin main
-      working-directory: ..
+      working-directory: .
