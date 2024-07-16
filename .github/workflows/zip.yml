@@ -40,7 +40,7 @@ jobs:
     - name: Create zip file
       run: |
         cd merged_pack
-        zip -r ../resourcepack.zip ./*
+        zip -r ../merged-pack.zip ./*
         cd ..
 
     - name: Verify zip file creation
@@ -55,6 +55,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git add resourcepack.zip
+        git add merged-pack.zip
         git commit -m 'Add merged resource pack'
         git push origin main
