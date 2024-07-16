@@ -43,8 +43,12 @@ jobs:
         cd merged_pack
         zip -r ../resourcepack.zip ./*
 
-    - name: Upload zip file
-      uses: actions/upload-artifact@v2
-      with:
-        name: resourcepack
-        path: resourcepack.zip
+    - name: Upload zip file to root
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout main
+        cp ../resourcepack.zip resourcepack.zip
+        git add resourcepack.zip
+        git commit -m 'Add merged resource pack'
+        git push origin main
