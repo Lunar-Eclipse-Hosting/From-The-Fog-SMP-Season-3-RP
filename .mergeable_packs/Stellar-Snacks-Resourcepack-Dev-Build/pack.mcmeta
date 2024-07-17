@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "§8Created by §5☆Lunar Eclipse Studios☆",
+        "pack_format": 22
+    },
+    "supported_formats": {
+        "min_inclusive": 15,
+        "max_inclusive": 26
+    }
+}
