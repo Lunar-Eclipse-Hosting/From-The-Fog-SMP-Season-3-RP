@@ -19,6 +19,15 @@
             "type": "bitmap"
         },
         {
+            "ascent": 8,
+            "chars": [
+                "\uBC03"
+            ],
+            "file": "lunareclipse.ftfsmp:font/logo.png",
+            "height": 17,
+            "type": "bitmap"
+        },
+        {
             "ascent": 42,
             "chars": [
                 "\uBA01"
