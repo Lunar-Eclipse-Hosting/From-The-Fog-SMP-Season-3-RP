@@ -95,6 +95,12 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/sleeping_webster",
+      "predicate": {
+        "custom_model_data": 1350016
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000
