@@ -101,6 +101,12 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/creeper",
+      "predicate": {
+        "custom_model_data": 1350017
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000
