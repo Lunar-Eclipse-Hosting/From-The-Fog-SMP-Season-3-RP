@@ -8,5 +8,15 @@
 				"weight": 1
 			}
 		]
+	},
+	"music.bret_boss": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music/bret_boss",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
 	}
 }
