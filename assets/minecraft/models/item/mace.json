@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:item/handheld_mace",
+    "textures": {
+        "layer0": "minecraft:item/mace"
+    },
+    "overrides": [
+        {
+            "model": "lunareclipse.cosmetics:item/tools/cookie/mace",
+            "predicate": {
+                "custom_model_data": 1350001
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/foliage/mace",
+            "predicate": {
+                "custom_model_data": 1350002
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/midnight/mace",
+            "predicate": {
+                "custom_model_data": 1350003
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/adventurer/mace",
+            "predicate": {
+                "custom_model_data": 1350004
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/eclipse/mace",
+            "predicate": {
+                "custom_model_data": 1350005
+            }
+        }
+    ]
+}
