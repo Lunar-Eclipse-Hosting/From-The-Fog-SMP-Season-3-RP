@@ -5,7 +5,9 @@ const readDirAsync = util.promisify(fs.readdir);
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
-const pathToOrganize = path.join(__dirname, "..", "assets", "lunareclipse.ftfsmp", "lang");
+// Define the path to the assets folder.
+const assetsPath = path.join(__dirname, "..", "..", ".mergeable_packs", "From-The-Fog-SMP-Primary", "assets");
+const pathToOrganize = path.join(assetsPath, "lunareclipse.ftfsmp", "lang");
 
 // Function to sort a JSON object alphabetically by its keys
 function sortObject(obj) {

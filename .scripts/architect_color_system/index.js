@@ -3,6 +3,9 @@ const { createCanvas, Image, loadImage } = require("canvas");
 const fsp = require("fs/promises");
 const path = require("path");
 
+// Define the path to the assets folder.
+const assetsPath = path.join(__dirname, "..", "..", ".mergeable_packs", "From-The-Fog-SMP-Primary", "assets");
+
 // List the colors that will be used.
 const colorList = [
     "black",
@@ -26,12 +29,12 @@ const colorList = [
 
 async function createStuff() {
     // Read the template info file.
-    const properties = JSON.parse(await fsp.readFile(path.join(__dirname, "assets", "input", "template_info.json"), "utf8"));
+    const properties = JSON.parse(await fsp.readFile(path.join(assetsPath, "input", "template_info.json"), "utf8"));
     // Read the template model file.
-    const modelInfo = JSON.parse(await fsp.readFile(path.join(__dirname, "assets", "input", "template.json"), "utf8"));
+    const modelInfo = JSON.parse(await fsp.readFile(path.join(assetsPath, "input", "template.json"), "utf8"));
     // Load the template image file.
     const templateImage = new Image();
-    templateImage.src = path.join(__dirname, "assets", "input", "template.png");
+    templateImage.src = path.join(assetsPath, "input", "template.png");
 
     // Create a new canvas element.
     const canvas = createCanvas(templateImage.width, templateImage.height);
@@ -136,7 +139,7 @@ async function createStuff() {
         ctx.drawImage(templateImage, 0, 0);
         // Draw the color template for the current color onto the canvas.
         const colorImage = new Image();
-        colorImage.src = path.join(__dirname, "assets", "colors", color + ".png");
+        colorImage.src = path.join(assetsPath, "colors", color + ".png");
         ctx.drawImage(colorImage, properties.color_template_location[0], properties.color_template_location[1]);
         // Color the template.
         colorImageLayer();
@@ -190,7 +193,7 @@ createStuff();
 //     for (let color of colorList) {
 //         // Draw the couch texture of the current color.
 //         let couchTexture = new Image();
-//         couchTexture.src = path.join(__dirname, "assets", "colors", "setup", color + ".png");
+//         couchTexture.src = path.join(assetsPath, "colors", "setup", color + ".png");
 //         couchCtx.drawImage(couchTexture, 0, 0);
 //         // Replace the specific pixels needed.
 //         await replacePixel([19,21],[0,0]);
@@ -199,7 +202,7 @@ createStuff();
 //         await replacePixel([19,18],[0,3]);
 //         await replacePixel([19,17],[0,4]);
 //         // Output the image to a file.
-//         fsp.writeFile(path.join(__dirname, "assets", "colors", color + ".png"), canvas.toBuffer());
+//         fsp.writeFile(path.join(assetsPath, "colors", color + ".png"), canvas.toBuffer());
 //     }
 // }
 // setupColors()

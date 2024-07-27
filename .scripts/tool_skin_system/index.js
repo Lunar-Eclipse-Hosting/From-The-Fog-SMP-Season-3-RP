@@ -3,6 +3,9 @@ const { createCanvas, Image, loadImage } = require("canvas");
 const fsp = require("fs/promises");
 const path = require("path");
 
+// Define the path to the assets folder.
+const assetsPath = path.join(__dirname, "..", "..", ".mergeable_packs", "From-The-Fog-SMP-Primary", "assets");
+
 // Define the info that will be used to define the new cosmetics.
 const info = require("./info.json");
 // List the items to edit.
@@ -28,7 +31,7 @@ async function createStuff() {
   // Loop through all the items in the list.
   for (let item of itemList) {
     // Read the file data and parse it.
-    let fileData = JSON.parse(await fsp.readFile(path.join(__dirname, "..", "assets", "minecraft", "models", "item", item), "utf-8"));
+    let fileData = JSON.parse(await fsp.readFile(path.join(assetsPath, "minecraft", "models", "item", item), "utf-8"));
     // Add the defined entry.
     fileData.overrides.push({
       "model": `lunareclipse.cosmetics:item/tools/${info.identifier}/${(((item.replace(".json", "")).replace("netherite_","")).replace("diamond_","")).replace("iron_","")}`,
@@ -37,7 +40,7 @@ async function createStuff() {
       }
     })
     // Output the overides info to a file.
-    fsp.writeFile(path.join(__dirname, "..", "assets", "minecraft", "models", "item", item), JSON.stringify(fileData));
+    fsp.writeFile(path.join(assetsPath, "minecraft", "models", "item", item), JSON.stringify(fileData));
   }
 }
 createStuff();
