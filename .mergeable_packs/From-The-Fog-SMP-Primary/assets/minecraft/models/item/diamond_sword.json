@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/diamond_sword"
+    },
+    "overrides": [
+        {
+            "model": "lunareclipse.cosmetics:item/tools/cookie/sword",
+            "predicate": {
+                "custom_model_data": 1350001
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/foliage/sword",
+            "predicate": {
+                "custom_model_data": 1350002
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/midnight/sword",
+            "predicate": {
+                "custom_model_data": 1350003
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/adventurer/sword",
+            "predicate": {
+                "custom_model_data": 1350004
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/eclipse/sword",
+            "predicate": {
+                "custom_model_data": 1350005
+            }
+        },
+        {
+            "model": "lunareclipse.cosmetics:item/tools/aetherite/sword",
+            "predicate": {
+                "custom_model_data": 1350100
+            }
+        }
+    ]
+}
