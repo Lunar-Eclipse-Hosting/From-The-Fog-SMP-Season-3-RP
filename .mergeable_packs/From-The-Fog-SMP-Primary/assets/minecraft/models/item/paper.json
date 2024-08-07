@@ -107,6 +107,12 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/lilypad",
+      "predicate": {
+        "custom_model_data": 1350018
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000
