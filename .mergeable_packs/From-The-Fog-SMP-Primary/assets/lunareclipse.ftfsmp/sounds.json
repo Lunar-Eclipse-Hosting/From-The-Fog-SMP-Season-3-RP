@@ -9,6 +9,16 @@
 			}
 		]
 	},
+	"music_disc.trick_or_treat": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/trick_or_treat",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music.bret_boss": {
 		"sounds": [
 			{

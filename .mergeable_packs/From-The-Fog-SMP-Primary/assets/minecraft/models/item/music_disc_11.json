@@ -9,6 +9,12 @@
       "predicate": {
         "custom_model_data": 1350001
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_trick_or_treat",
+      "predicate": {
+        "custom_model_data": 1350002
+      }
     }
   ]
 }
