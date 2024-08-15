@@ -19,6 +19,16 @@
 			}
 		]
 	},
+	"music_disc.the_legend_of_herobrine": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/the_legend_of_herobrine",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music.bret_boss": {
 		"sounds": [
 			{

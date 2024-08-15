@@ -15,6 +15,12 @@
       "predicate": {
         "custom_model_data": 1350002
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_the_legend_of_herobrine",
+      "predicate": {
+        "custom_model_data": 1350003
+      }
     }
   ]
 }
