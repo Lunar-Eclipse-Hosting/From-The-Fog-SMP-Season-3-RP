@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+	{ "model": "block/melon" },
+	{ "model": "block/melon_carved" },
+	{ "model": "block/melon_carved", "y": 90  },
+	{ "model": "block/melon_carved", "y": 180 },
+	{ "model": "block/melon_carved", "y": 270 }
+	]
+    }
+
+}

@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=y":  [
+		      { "model": "block/birch_log" ,    			"weight": 200},
+		      { "model": "block/birch_log_face" ,    			"weight": 1},
+		      { "model": "block/birch_log_face" , "y": 90 ,    	"weight": 1},
+		      { "model": "block/birch_log_face" , "y": 180 ,   	"weight": 1},
+		      { "model": "block/birch_log_face" , "y": 270 ,   	"weight": 1}
+	    ],
+        "axis=z":   { "model": "block/birch_log", "x": 90 },
+        "axis=x":   { "model": "block/birch_log", "x": 90, "y": 90 }
+    }
+}
