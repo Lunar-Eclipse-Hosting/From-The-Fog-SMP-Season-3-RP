@@ -21,6 +21,12 @@
       "predicate": {
         "custom_model_data": 1350003
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/limbo_rift",
+      "predicate": {
+        "custom_model_data": 1350004
+      }
     }
   ]
 }
