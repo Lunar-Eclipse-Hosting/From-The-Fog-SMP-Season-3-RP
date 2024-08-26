@@ -21,6 +21,12 @@
       "predicate": {
         "custom_model_data": 1350003
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_nowhere",
+      "predicate": {
+        "custom_model_data": 1350004
+      }
     }
   ]
 }
