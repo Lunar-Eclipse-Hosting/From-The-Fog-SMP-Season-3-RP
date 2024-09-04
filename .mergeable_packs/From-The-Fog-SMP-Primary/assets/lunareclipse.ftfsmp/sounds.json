@@ -48,5 +48,15 @@
 				"weight": 1
 			}
 		]
+	},
+	"misc.lalala": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:misc/lalala",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
 	}
 }
