@@ -27,6 +27,12 @@
       "predicate": {
         "custom_model_data": 1350004
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/bret_villager_head",
+      "predicate": {
+        "custom_model_data": 1350005
+      }
     }
   ]
 }
