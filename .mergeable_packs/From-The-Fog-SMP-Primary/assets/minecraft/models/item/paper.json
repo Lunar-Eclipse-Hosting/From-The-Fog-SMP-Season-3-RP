@@ -113,6 +113,72 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/jester",
+      "predicate": {
+        "custom_model_data": 1350019
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/rugby_helmet",
+      "predicate": {
+        "custom_model_data": 1350020
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/television",
+      "predicate": {
+        "custom_model_data": 1350021
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/astronaut_helmet",
+      "predicate": {
+        "custom_model_data": 1350022
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/top_hat",
+      "predicate": {
+        "custom_model_data": 1350023
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/the_guzzler",
+      "predicate": {
+        "custom_model_data": 1350024
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/chef",
+      "predicate": {
+        "custom_model_data": 1350025
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/traffic_cone",
+      "predicate": {
+        "custom_model_data": 1350026
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/gentleman",
+      "predicate": {
+        "custom_model_data": 1350027
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/leprechaun",
+      "predicate": {
+        "custom_model_data": 1350028
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/steampunk_top_hat",
+      "predicate": {
+        "custom_model_data": 1350029
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000
