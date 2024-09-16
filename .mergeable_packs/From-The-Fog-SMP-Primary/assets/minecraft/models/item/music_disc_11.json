@@ -27,6 +27,12 @@
       "predicate": {
         "custom_model_data": 1350004
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_diagonal_ballad",
+      "predicate": {
+        "custom_model_data": 1350005
+      }
     }
   ]
 }
