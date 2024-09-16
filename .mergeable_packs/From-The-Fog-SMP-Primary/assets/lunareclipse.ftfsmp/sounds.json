@@ -49,6 +49,16 @@
 			}
 		]
 	},
+	"music_disc.libets_delay": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/libets_delay",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music.bret_boss": {
 		"sounds": [
 			{

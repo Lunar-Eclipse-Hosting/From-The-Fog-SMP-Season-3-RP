@@ -33,6 +33,12 @@
       "predicate": {
         "custom_model_data": 1350005
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_libets_delay",
+      "predicate": {
+        "custom_model_data": 1350006
+      }
     }
   ]
 }
