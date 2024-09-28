@@ -183,6 +183,12 @@
       "predicate": {
         "custom_model_data": 1351000
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/text",
+      "predicate": {
+        "custom_model_data": 1351001
+      }
     }
   ]
 }
