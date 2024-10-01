@@ -59,10 +59,10 @@
 			}
 		]
 	},
-	"music_disc.it_wizard_time_mf": {
+	"music_disc.its_wizard_time_mf": {
 		"sounds": [
 			{
-				"name": "lunareclipse.ftfsmp:music_disc/it_wizard_time_mf",
+				"name": "lunareclipse.ftfsmp:music_disc/its_wizard_time_mf",
 				"volume": 1,
 				"pitch": 1,
 				"weight": 1
