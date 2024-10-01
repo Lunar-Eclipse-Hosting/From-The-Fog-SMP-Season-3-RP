@@ -39,6 +39,12 @@
       "predicate": {
         "custom_model_data": 1350006
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_its_wizard_time_mf",
+      "predicate": {
+        "custom_model_data": 1350007
+      }
     }
   ]
 }
