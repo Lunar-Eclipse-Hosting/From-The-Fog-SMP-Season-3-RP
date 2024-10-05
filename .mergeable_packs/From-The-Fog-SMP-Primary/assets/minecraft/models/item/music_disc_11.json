@@ -45,6 +45,12 @@
       "predicate": {
         "custom_model_data": 1350007
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_optimism",
+      "predicate": {
+        "custom_model_data": 1350008
+      }
     }
   ]
 }
