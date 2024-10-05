@@ -179,6 +179,12 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/mr_boots_plushie",
+      "predicate": {
+        "custom_model_data": 1350030
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000
