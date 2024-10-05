@@ -185,6 +185,18 @@
       }
     },
     {
+      "model": "lunareclipse.cosmetics:item/hats/micheal_myers_plushie",
+      "predicate": {
+        "custom_model_data": 1350031
+      }
+    },
+    {
+      "model": "lunareclipse.cosmetics:item/hats/scarecrow_plushie",
+      "predicate": {
+        "custom_model_data": 1350032
+      }
+    },
+    {
       "model": "lunareclipse.cosmetics:item/blank",
       "predicate": {
         "custom_model_data": 1351000

@@ -2,8 +2,8 @@
 	"credit": "Made by Bret06 using Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lunareclipse.cosmetics:item/hats/mr_boots_plushie",
-		"particle": "lunareclipse.cosmetics:item/hats/mr_boots_plushie"
+		"0": "lunareclipse.cosmetics:item/hats/micheal_myers_plushie",
+		"particle": "lunareclipse.cosmetics:item/hats/micheal_myers_plushie"
 	},
 	"elements": [
 		{
