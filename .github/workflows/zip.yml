@@ -22,10 +22,29 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Delete existing zip file from repository
+      run: |
+        if [ -f "merged-pack.zip" ]; then
+          git rm merged-pack.zip
+          echo "Existing merged-pack.zip removed from repository."
+        else
+          echo "No existing zip file to delete from repository."
+        fi
+
+    - name: Commit removal of old zip file
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git commit -m 'Remove old merged resource pack zip file'
+        git push origin main
+
     - name: Clear existing merged pack directory
       run: |
         rm -rf merged_pack
         mkdir -p merged_pack/assets
+        echo "Cleared and recreated merged_pack directory."
 
     - name: Copy main pack files
       run: |
@@ -44,19 +63,15 @@ jobs:
         cd merged_pack
         zip -r ../merged-pack.zip ./*
         cd ..
+        echo "Created merged-pack.zip."
 
     - name: Verify zip file creation
       run: ls -alh
 
-    - name: Configure git
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-    - name: Commit and push zip file to root
+    - name: Commit and push new zip file to root
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add merged-pack.zip
-        git commit -m 'Add merged resource pack'
+        git commit -m 'Add new merged resource pack'
         git push origin main
