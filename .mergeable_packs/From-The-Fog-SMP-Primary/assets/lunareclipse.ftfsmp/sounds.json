@@ -79,6 +79,26 @@
 			}
 		]
 	},
+	"music_disc.let_it_snow": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/let_it_snow",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"music_disc.santa_claus_is_coming_to_town": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/santa_claus_is_coming_to_town",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music.bret_boss": {
 		"sounds": [
 			{

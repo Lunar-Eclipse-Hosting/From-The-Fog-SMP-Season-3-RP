@@ -51,6 +51,18 @@
       "predicate": {
         "custom_model_data": 1350008
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_let_it_snow",
+      "predicate": {
+        "custom_model_data": 1350009
+      }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_santa_claus_is_coming_to_town",
+      "predicate": {
+        "custom_model_data": 1350010
+      }
     }
   ]
 }

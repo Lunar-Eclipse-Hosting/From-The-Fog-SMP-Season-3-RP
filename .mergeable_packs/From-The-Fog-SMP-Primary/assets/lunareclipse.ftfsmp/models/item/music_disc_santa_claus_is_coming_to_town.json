@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "lunareclipse.ftfsmp:item/santa_claus_is_coming_to_town"
+  }
+}
