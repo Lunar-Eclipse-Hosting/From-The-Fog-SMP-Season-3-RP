@@ -33,6 +33,24 @@
       "predicate": {
         "custom_model_data": 1350005
       }
+    },
+    {
+      "model": "lunareclipse.christmas:item/present/1",
+      "predicate": {
+        "custom_model_data": 1350006
+      }
+    },
+    {
+      "model": "lunareclipse.christmas:item/present/2",
+      "predicate": {
+        "custom_model_data": 1350007
+      }
+    },
+    {
+      "model": "lunareclipse.christmas:item/present/3",
+      "predicate": {
+        "custom_model_data": 1350008
+      }
     }
   ]
 }
