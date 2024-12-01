@@ -1,10 +1,10 @@
 {
 	"credit": "Made by Bret06 using Blockbench",
 	"textures": {
-		"0": "lunareclipse.architect:item/decorations/furniture/christmas/tree/branches",
-		"1": "lunareclipse.architect:item/decorations/furniture/christmas/tree/log",
-		"7": "lunareclipse.architect:item/decorations/furniture/christmas/tree/star",
-		"particle": "lunareclipse.architect:item/decorations/furniture/christmas/tree/branches"
+		"0": "lunareclipse.architect:item/decorations/furniture/christmas/christmas_tree/branches",
+		"1": "lunareclipse.architect:item/decorations/furniture/christmas/christmas_tree/log",
+		"7": "lunareclipse.architect:item/decorations/furniture/christmas/christmas_tree/star",
+		"particle": "lunareclipse.architect:item/decorations/furniture/christmas/christmas_tree/branches"
 	},
 	"elements": [
 		{
