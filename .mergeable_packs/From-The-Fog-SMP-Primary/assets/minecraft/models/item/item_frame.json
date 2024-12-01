@@ -605,7 +605,7 @@
       }
     },
     {
-      "model": "lunareclipse.architect:item/decorations/furniture/christmas/tree",
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/christmas_tree",
       "predicate": {
         "custom_model_data": 1350099
       }
