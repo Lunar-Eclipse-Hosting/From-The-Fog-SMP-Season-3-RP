@@ -603,6 +603,12 @@
       "predicate": {
         "custom_model_data": 1350098
       }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/tree",
+      "predicate": {
+        "custom_model_data": 1350099
+      }
     }
   ]
 }
