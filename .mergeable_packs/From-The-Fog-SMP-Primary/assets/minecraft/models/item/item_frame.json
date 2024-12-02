@@ -609,6 +609,12 @@
       "predicate": {
         "custom_model_data": 1350099
       }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/santas_mailbox",
+      "predicate": {
+        "custom_model_data": 1350100
+      }
     }
   ]
 }
