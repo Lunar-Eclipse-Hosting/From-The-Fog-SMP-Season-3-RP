@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/template_standing",
+	"textures": {
+		"texture": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/comet"
+	}
+}

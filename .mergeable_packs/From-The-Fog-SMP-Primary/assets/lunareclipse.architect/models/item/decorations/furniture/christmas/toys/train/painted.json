@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.architect:item/decorations/furniture/christmas/toys/train/unpainted",
+	"textures": {
+		"texture": "lunareclipse.architect:item/decorations/furniture/christmas/toys/train/painted"
+	}
+}

@@ -615,6 +615,66 @@
       "predicate": {
         "custom_model_data": 1350100
       }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/1_standing",
+      "predicate": {
+        "custom_model_data": 1350101
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/2_standing",
+      "predicate": {
+        "custom_model_data": 1350102
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/comet_standing",
+      "predicate": {
+        "custom_model_data": 1350103
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/rudolph_standing",
+      "predicate": {
+        "custom_model_data": 1350104
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/1_laying",
+      "predicate": {
+        "custom_model_data": 1350105
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/2_laying",
+      "predicate": {
+        "custom_model_data": 1350106
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/comet_laying",
+      "predicate": {
+        "custom_model_data": 1350107
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/reindeer/rudolph_laying",
+      "predicate": {
+        "custom_model_data": 1350108
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/toys/train/unpainted",
+      "predicate": {
+        "custom_model_data": 1350109
+      }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/toys/train/painted",
+      "predicate": {
+        "custom_model_data": 1350110
+      }
     }
   ]
 }
