@@ -675,6 +675,12 @@
       "predicate": {
         "custom_model_data": 1350110
       }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/furniture/christmas/sleigh",
+      "predicate": {
+        "custom_model_data": 1350111
+      }
     }
   ]
 }
