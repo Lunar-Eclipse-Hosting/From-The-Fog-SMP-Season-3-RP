@@ -681,6 +681,12 @@
       "predicate": {
         "custom_model_data": 1350111
       }
+    },
+    {
+      "model": "lunareclipse.architect:item/decorations/props/teddy_bear",
+      "predicate": {
+        "custom_model_data": 1350112
+      }
     }
   ]
 }
