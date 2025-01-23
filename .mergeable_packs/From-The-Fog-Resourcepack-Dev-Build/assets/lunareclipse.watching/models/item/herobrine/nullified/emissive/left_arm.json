@@ -1,6 +1,0 @@
-{
-  "parent": "lunareclipse.watching:item/herobrine/template/left_arm",
-  "textures": {
-    "skin": "lunareclipse.watching:item/herobrine/nullified/skin_emissive"
-  }
-}

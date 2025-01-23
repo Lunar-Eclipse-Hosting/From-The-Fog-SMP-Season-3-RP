@@ -1,7 +1,0 @@
-{
-  "parent": "lunareclipse.watching:item/herobrine/distorted/head",
-  "textures": {
-    "1": "lunareclipse.watching:item/herobrine/distorted/head_emissive",
-    "skin": "lunareclipse.watching:item/herobrine/distorted/skin_emissive"
-  }
-}
