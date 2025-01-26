@@ -1,5 +1,8 @@
 {
+    "selectWorld.backupQuestion.experimental": "Unknown Entity Error",
+    "selectWorld.backupWarning.experimental": "Minecraft has detected an unknown presence in this world. It is advised that you DO NOT PASS THIS SCREEN. Ignoring this warning may result in strange occurrences and/or encounters. Remember, don't stare directly at the bugs.",
     "config.text.settings": "Settings",
+    "config.text.prevent_open": "Sorry, you can't open a config right now because another one is already open.",
     "dreadful_donation.message.1": "Help.",
     "dreadful_donation.message.2": "I see you.",
     "dreadful_donation.message.3": "You are not alone.",
@@ -36,6 +39,7 @@
     "entity.nametag.lumbering_jack.value": "Lumbering Jack",
     "entity.nametag.grimreaper.value": "The Grimreaper",
     "entity.nametag.white_pumpkin.value": "The White Pumpkin",
+    "entity.nametag.hat_man.value": "The Hat Man",
 
     "config.page.vanishing_delay.display_name": "Vanishing Delay",
     "config.page.vanishing_delay.description": "The Vanishing Delay setting allows players to adjust how long Herobrine lingers after a sighting. This ensures that even those who might have trouble noticing him can still experience his unsettling presence.",
@@ -126,6 +130,7 @@
     "config.setting.herobrine_skin.lumbering_jack.value": "Lumbering Jack",
     "config.setting.herobrine_skin.grimreaper.value": "The Grimreaper",
     "config.setting.herobrine_skin.white_pumpkin.value": "The White Pumpkin",
+    "config.setting.herobrine_skin.hat_man.value": "The Hat Man",
     "config.setting.burning_base.display_name": "Burning Base",
     "config.setting.burning_base.description": "Herobrine will try to burn your house down once you leave the area. (One check every 5 minutes.)",
     "config.setting.burning_base_chance.display_name": "Burning Base Chance",
