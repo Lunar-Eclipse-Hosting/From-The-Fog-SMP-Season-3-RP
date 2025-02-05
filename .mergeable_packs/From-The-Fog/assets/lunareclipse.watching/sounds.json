@@ -33,6 +33,16 @@
 			}
 		]
 	},
+	"events.suspenseful_sighting": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:events/suspenseful_sighting",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"events.sudden_scare.crash": {
 		"sounds": [
 			{
@@ -363,10 +373,60 @@
 			}
 		]
 	},
+	"config.setting.suspenseful_sighting.true": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:events/suspenseful_sighting",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"config.setting.suspenseful_sighting.false": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:config/default",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"config.setting.hoebrine_returns.true": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:config/hoebrine_returns_true",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"config.setting.hoebrine_returns.false": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:config/default",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music_disc.herobrine_lullaby": {
 		"sounds": [
 			{
 				"name": "lunareclipse.watching:music_disc/herobrine_lullaby",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"music_disc.deathbed": {
+		"sounds": [
+			{
+				"name": "lunareclipse.watching:music_disc/deathbed",
 				"volume": 1,
 				"pitch": 1,
 				"weight": 1
