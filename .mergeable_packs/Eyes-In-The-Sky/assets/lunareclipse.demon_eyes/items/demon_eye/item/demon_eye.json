@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "lunareclipse.demon_eyes:item/demon_eye/item/demon_eye"
+	},
+	"hand_animation_on_swap": true
+}

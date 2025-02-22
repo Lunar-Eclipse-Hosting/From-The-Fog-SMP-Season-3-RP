@@ -1,0 +1,100 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"tendrils": "lunareclipse.demon_eyes:item/demon_eye/entity/tendrils",
+		"body": "lunareclipse.demon_eyes:item/demon_eye/entity/default"
+	},
+	"elements": [
+		{
+			"from": [3.75, 2.75, 3.75],
+			"to": [12.25, 11.25, 12.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 3, 4]},
+			"faces": {
+				"north": {"uv": [4, 12, 8, 16], "texture": "#body"},
+				"east": {"uv": [0, 12, 4, 16], "texture": "#body"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#body"},
+				"west": {"uv": [8, 12, 12, 16], "texture": "#body"},
+				"up": {"uv": [8, 12, 4, 8], "texture": "#body"},
+				"down": {"uv": [12, 8, 8, 12], "texture": "#body"}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [12, 11, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#body"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#body"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#body"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#body"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#body"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#body"}
+			}
+		},
+		{
+			"from": [8, 7, 12],
+			"to": [14, 7, 22],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 7, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "rotation": 270, "texture": "#tendrils"},
+				"east": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#tendrils"},
+				"south": {"uv": [0, 0, 0, 6], "rotation": 90, "texture": "#tendrils"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#tendrils"},
+				"up": {"uv": [0, 11, 5, 14], "rotation": 90, "texture": "#tendrils"},
+				"down": {"uv": [5, 11, 0, 14], "rotation": 90, "texture": "#tendrils"}
+			}
+		},
+		{
+			"from": [2, 6, 12],
+			"to": [8, 6, 21],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 7, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "rotation": 90, "texture": "#tendrils"},
+				"east": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#tendrils"},
+				"south": {"uv": [0, 0, 0, 6], "rotation": 270, "texture": "#tendrils"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#tendrils"},
+				"up": {"uv": [12.5, 8, 8, 11], "rotation": 270, "texture": "#tendrils"},
+				"down": {"uv": [8, 8, 12.5, 11], "rotation": 270, "texture": "#tendrils"}
+			}
+		},
+		{
+			"from": [8, 7, 12],
+			"to": [8, 13, 18],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 7, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#tendrils"},
+				"east": {"uv": [3, 8, 0, 11], "texture": "#tendrils"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#tendrils"},
+				"west": {"uv": [0, 8, 3, 11], "texture": "#tendrils"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#tendrils"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#tendrils"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [1.5, 3.25, 0]
+		},
+		"head": {
+			"translation": [1, 0, -2],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "body",
+			"origin": [0, 3, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "tendrils",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2, 3, 4]
+		}
+	]
+}

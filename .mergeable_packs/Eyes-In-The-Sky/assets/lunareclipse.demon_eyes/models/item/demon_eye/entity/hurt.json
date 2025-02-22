@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.demon_eyes:item/demon_eye/entity/default",
+	"textures": {
+		"body": "lunareclipse.demon_eyes:item/demon_eye/entity/hurt"
+	}
+}

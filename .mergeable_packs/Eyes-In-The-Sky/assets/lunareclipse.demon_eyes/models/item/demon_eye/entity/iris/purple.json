@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.demon_eyes:item/demon_eye/entity/iris",
+	"textures": {
+		"iris": "lunareclipse.demon_eyes:item/demon_eye/entity/iris/purple"
+	}
+}
