@@ -63,6 +63,12 @@
       "predicate": {
         "custom_model_data": 1350010
       }
+    },
+    {
+      "model": "lunareclipse.ftfsmp:item/music_disc_wondrous_workshop",
+      "predicate": {
+        "custom_model_data": 1350011
+      }
     }
   ]
 }

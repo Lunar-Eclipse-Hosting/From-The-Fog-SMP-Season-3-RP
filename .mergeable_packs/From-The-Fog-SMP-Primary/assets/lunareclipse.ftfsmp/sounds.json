@@ -99,6 +99,16 @@
 			}
 		]
 	},
+	"music_disc.wondrous_workshop": {
+		"sounds": [
+			{
+				"name": "lunareclipse.ftfsmp:music_disc/wondrous_workshop",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
 	"music.bret_boss": {
 		"sounds": [
 			{
