@@ -1,6 +1,6 @@
 {
 	"parent": "lunareclipse.christmas:item/present/template",
 	"textures": {
-		"present": "lunareclipse.christmas:item/present/1"
+		"0": "lunareclipse.christmas:item/present/1"
 	}
 }
